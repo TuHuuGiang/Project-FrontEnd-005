@@ -1,0 +1,159 @@
+﻿.info-heading {
+    width: 300px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.wrap-checkout {
+    padding: 0 38px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    .checkout-container {
+        flex: 0 0 70%;
+
+        .logo {
+            img {
+                padding: 8px 0 16px;
+            }
+        }
+
+        .info-container {
+            display: flex;
+            gap: 6%;
+
+            .info-account {
+                flex: 0 0 47%;
+
+                a {
+                    color: #2a9dcc;
+                    font-size: 16px;
+                    text-decoration: none;
+
+                    i {
+                        padding-right: 6px;
+                        font-size: 20px;
+                    }
+                }
+
+                .info {
+
+                    .info-email,
+                    .info-name,
+                    .info-phone,
+                    .info-address,
+                    .info-province,
+                    .info-district,
+                    .info-ward,
+                    .info-note {
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+
+            .info-transport {
+                flex: 0 0 47%;
+                padding-right: 42px;
+
+                p {
+                    // width: 258px;
+                    color: #0c5460;
+                    background-color: #d1ecf1;
+                    border: #bee5eb;
+                    padding: 10px 20px;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+
+    .info-cart-container {
+        flex: 0 0 30%;
+        border-left: 1px solid #f1f1f1;
+
+        .info-cart-heading {
+            padding: 20px 24px;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .info-prod {
+            padding: 24px 34px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .name {
+                font-size: 12px;
+                width: 76px;
+            }
+
+            .image {
+                width: 50px;
+                border-radius: 4px;
+            }
+        }
+
+        .info-prod:not(:last-child) {
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .promotion {
+            padding: 20px 34px;
+            border-top: 1px solid #f1f1f1;
+            border-bottom: 1px solid #f1f1f1;
+
+            input {
+                width: 200px;
+                padding: 12px;
+            }
+
+            button {
+                margin-left: 7px;
+                padding: 13px;
+                border: none;
+                background-color: #357ebd;
+                font-size: 16px;
+                border-radius: 4px;
+                color: #fff;
+            }
+        }
+
+        .total-container,
+        .total {
+            padding: 20px 34px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .total {
+            .total-price {
+                color: #2a9dcc;
+                font-size: 22px;
+            }
+
+            .back {
+                text-decoration: none;
+                color: #2a9dcc;
+            }
+
+            .order {
+                color: #fff;
+                background-color: #2a9dcc;
+                text-decoration: none;
+                padding: 10px 12px;
+                border-radius: 5px;
+            }
+        }
+
+        .border {
+            width: 100%;
+            border-top: 1px solid #f1f1f1;
+        }
+    }
+}

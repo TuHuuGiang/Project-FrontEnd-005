@@ -1,0 +1,42 @@
+﻿.side-bar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    flex: 0 0 20%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(135deg, rgb(14, 14, 14) 0%, rgb(106, 106, 106) 100%);
+}
+
+.side-bar h2 {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    padding: 10px 20px 50px;
+    margin: 0;
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+    max-width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+li a .icon {
+    width: 38px;
+}
+
+ul li a:hover {
+    color: red;
+}

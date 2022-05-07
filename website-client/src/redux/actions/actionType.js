@@ -1,0 +1,10 @@
+﻿export const BUY_PRODUCT = "buy_product";
+export const DELETE_PRODUCT = "delete_product";
+export const DELETE_CART = "delete_cart";
+export const FETCH_PRODUCTS = "fetch_products";
+export const CHECK_USER = "check_user";
+export const DEL_USER = "del_user";
+export const INFO_USER = "info_user";
+export const SAVE_QUANTITY_CART = "save_quantity_cart";
+export const FETCH_INFO_USER = "fetch_info_user";
+export const FETCH_ORDER_USER = "fetch_order_user";

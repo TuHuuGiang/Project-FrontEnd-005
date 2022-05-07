@@ -1,0 +1,71 @@
+﻿.login-container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+
+    .heading {
+        font-weight: 500;
+        letter-spacing: 1.4px;
+    }
+
+    .login-form {
+        margin-top: 40px;
+
+        p {
+            text-align: left;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .login-email,
+        .login-pass {
+            width: 100%;
+            padding: 16px;
+            border: 1px solid #c4c2c2;
+            outline: none;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .btn-login {
+        width: 220px;
+        border: 1px solid #000;
+        margin-top: 0;
+    }
+
+    p {
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: 600;
+
+        a {
+            color: #dc4e3f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .hr {
+        border-top: 1px solid #000;
+        margin: 40px 80px;
+    }
+
+    div {
+        .btn-google {
+            border: 1px solid #000;
+            padding: 10px 20px;
+            font-weight: 700;
+            border-radius: 4px;
+            cursor: pointer;
+
+            i {
+                font-size: 20px;
+                padding-right: 10px;
+            }
+        }
+    }
+}

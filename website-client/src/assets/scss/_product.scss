@@ -1,0 +1,206 @@
+﻿.heading {
+    margin: 30px 0;
+    text-align: center;
+
+    &-product {
+        font-weight: 600;
+        letter-spacing: 1.4px;
+        margin-bottom: 6px;
+    }
+
+    .link {
+        position: relative;
+        color: #000;
+        font-weight: 600;
+        text-decoration: none;
+        padding-right: 6px;
+        margin-right: 6px;
+    }
+
+    .link:not(:last-child):before {
+        content: "/";
+        color: #bfbfbf;
+        position: absolute;
+        right: -4px;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .link:hover {
+        color: #dc4e3f;
+    }
+}
+
+.product-container {
+    // background-color: rgb(39, 38, 38);
+    text-align: center;
+    // padding: 50px;
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        // align-items: center;
+        gap: 12px;
+        
+        .product-item-cate {
+            // margin: 0 auto;
+            width: 24%;
+            min-height: 100%;
+            box-shadow: 1px 1px 12px rgba(106, 104, 104, 0.2);
+            border: 1px solid #e2e0e0;
+            // margin-bottom: 14px;
+
+            .product-image {
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .product-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 80px;
+                padding: 10px 4px;
+                text-align: center;
+
+                .product-name {
+                    height: 40px;
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+
+                        h4 {
+                            text-transform: uppercase;
+                            letter-spacing: 0.6px;
+                            margin-bottom: 4px;
+                        }
+                    }
+                }
+
+                .product-price {
+                    margin-top: 10px;
+                    height: 30px;
+                    color: red;
+                }
+            }
+        }
+
+        .product-item {
+            margin: 0 auto;
+            width: 96%;
+            min-height: 100%;
+            box-shadow: 1px 1px 12px rgba(106, 104, 104, 0.2);
+            border: 1px solid #e2e0e0;
+
+            .product-image {
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .product-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 80px;
+                padding: 10px 4px;
+                text-align: center;
+
+                .product-name {
+                    height: 40px;
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+
+                        h4 {
+                            text-transform: uppercase;
+                            letter-spacing: 0.6px;
+                            margin-bottom: 4px;
+                        }
+                    }
+                }
+
+                .product-price {
+                    margin-top: 10px;
+                    height: 30px;
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+.product-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 19px;
+
+    .product-banner-item {
+        position: relative;
+        width: 370px;
+        height: 400px;
+        overflow: hidden;
+
+        .product-item-image {
+            max-width: 100%;
+            transition: all 1s;
+        }
+
+        .product-item-image:hover {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        .product-banner-content {
+            position: absolute;
+            bottom: 60px;
+            left: 33px;
+
+            h3 {
+                color: #fff;
+                font-size: 22px;
+                font-weight: 400;
+                letter-spacing: 3px;
+                margin-bottom: -28px;
+                text-shadow: 0 0 1.2px #000;
+            }
+
+            a {
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+.slick-prev {
+    left: -42px;
+    top: 149px;
+}
+
+.slick-next {
+    top: 149px;
+    right: -32px;
+}
+
+.slick-prev:before {
+    content: '←';
+    font-size: 34px;
+    color: red;
+}
+
+.slick-next:before {
+    content: '→';
+    font-size: 34px;
+    color: red;
+}

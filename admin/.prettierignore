@@ -1,0 +1,5 @@
+jsconfig.json
+jsconfig.paths.json
+
+# production
+/build

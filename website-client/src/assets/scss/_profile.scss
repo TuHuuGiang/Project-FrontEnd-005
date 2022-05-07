@@ -1,0 +1,139 @@
+﻿.content {
+    .profile {
+        display: flex;
+
+        &-left {
+            flex: 0 0 50%;
+            padding-right: 10px;
+
+            .info-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 10px;
+
+                .avatar-container {
+                    // flex: 0 0 23%;
+                    position: relative;
+                    width: 112px;
+                    height: 112px;
+                    border: 4px solid rgb(194, 225, 255);
+                    background-color: rgb(240, 248, 255);
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+
+                    .avatar-view {
+                        img {
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
+                            display: block;
+                        }
+                    }
+
+                    .edit {
+                        position: absolute;
+                        background-color: rgb(160, 160, 160);
+                        border-radius: 50%;
+                        width: 20px;
+                        height: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        bottom: 0;
+                        right: 10px;
+
+                        label {
+                            i {
+                                font-size: 10px;
+                                cursor: pointer;
+                            }
+                        }
+
+                        input {
+                            display: none;
+                        }
+                    }
+                }
+
+                .info {
+                    // flex: 0 0 80%;
+                    padding-left: 30px;
+                }
+            }
+
+            .info-address,
+            .info-phone {
+                margin-top: 5px;
+                margin-right: 10px;
+            }
+
+            .save-profile {
+                text-align: center;
+            }
+        }
+
+        &-right {
+            padding-left: 16px;
+            flex: 0 0 50%;
+            border-left: 1px solid #ccc;
+
+            .user {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 0;
+
+                .user-content {
+                    .icon {
+                        width: 20px;
+                    }
+                }
+            }
+
+            .update {
+                text-decoration: none;
+                color: #000;
+                padding: 4px;
+                background-color: #fff;
+                border: 1px solid #000;
+                outline: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .update:hover {
+                color: #dc4e3f;
+            }
+        }
+    }
+
+    span {
+        display: inline-block;
+        font-weight: 700;
+        width: 140px;
+        padding-bottom: 10px;
+    }
+
+    input {
+        margin-bottom: 14px;
+        padding: 10px;
+        width: 100%;
+        outline: none;
+        border-radius: 4px;
+        border: 1px solid rgb(196, 196, 207);
+    }
+
+    .heading {
+        margin: 0;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    .heading:not(:first-child) {
+        padding-top: 40px;
+    }
+}
